@@ -127,6 +127,43 @@
     
     
     
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
     
   </nav>
   
@@ -525,26 +562,26 @@
                   
 
 
-<h1 id="upload-a-file">Upload a File</h1>
+<div><h1 id="upload-a-file">Upload a File</h1>
 <p>Select the folder you want to upload the file to. After file is uploaded, you will see a pending icon next to your file. Behind the scenes, Superinsight is processing all the contents in your file and helping you to build your knowledge base. Depending on how big your files are, this process can take a few minutes to up to an hour.</p>
 <p>Once the file is ready, as shown in the screenshots below, you can continue to the next step.</p>
 <div class="admonition note">
 <p class="admonition-title">Supported File Types</p>
 <p>Superinsight supports txt, pdf, doc, docx, mp3, mp4, m4a, csv, xlsx and xls files.</p>
 </div>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Upload File</label><label for="__tabbed_1_2">File In Progress</label><label for="__tabbed_1_3">File Is Ready</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><input id="__tabbed_1_3" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1">Upload File</label><label for="__tabbed_1_2">File In Progress</label><label for="__tabbed_1_3">File Is Ready</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<p><img alt="Upload File To Folder" src="../../assets/images/tutorial/upload-file-to-folder.png" /></p>
+<p><img alt="Upload File To Folder" src="../../assets/images/tutorial/upload-file-to-folder.png"></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="File In Progress" src="../../assets/images/tutorial/file-pending.png" /></p>
+<p><img alt="File In Progress" src="../../assets/images/tutorial/file-pending.png"></p>
 </div>
 <div class="tabbed-block">
-<p><img alt="File In Progress" src="../../assets/images/tutorial/file-ready.png" /></p>
+<p><img alt="File In Progress" src="../../assets/images/tutorial/file-ready.png"></p>
 </div>
 </div>
-</div>
+</div></div>
 
 
 
